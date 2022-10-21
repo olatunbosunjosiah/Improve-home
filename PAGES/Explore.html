@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./styles/Styles.css">
+<link rel="stylesheet" href="./styles/Explore.css">
+<link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+</head>
+<body>
+<div id="dashboard-page">
+<div id="dashboard-header">
+
+<!-- Mobile Sidebar -->
+<header id="mobile-dashboard-header">
+<nav>
+<ul>
+<li>
+<div id="header-hamburger-icon" class="svg-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+<use href="#mobile-hamburger-icon"></use>
+</svg>
+</div>
+</li>
+<li id="mobile-logo">Logo</li>
+<form id="mobile-form-search">
+<label>
+<div class="svg-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+<use href="#mobile-search-icon"></use>
+</svg>
+</div>
+<input placeholder="Search Appliace"/>
+
+
+</label>
+</form>
+<li>
+<div id="header-search-icon" class="svg-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+<use href="#mobile-search-icon"></use>
+</svg>
+</div>
+</li>
+</ul>
+</nav>
+</header>
+<!-- End Of Mobile Sidebar -->
+
+
+<!-- Mobile Sidebar -->
+<div id="mobile-sidebar">
+
+<div id="mobile-sidebar-inner">
+
+<div id="close-mobile-sidebar" class="svg-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+<use href="#mobile-close-icon"></use>
+</svg>
+</div>
+
+<div id="mobile-sidebar-inner-inner">
+<ul>
+<li id="mobile-users-infos">
+<div id="mobile-users-img">
+<img src="./images/user.jpg" alt="">
+</div>
+<div id="mobile-user-notification" class="svg-icon">
+<svg>
+<use href="#notification-icon"></use>
+</svg>
+</div>
+<div id="mobile-user-settings" class="svg-icon">
+<svg>
+<use href="#settings-icon"></use>
+</svg>
+</div>
+
+</li>
+
+<li>
+<a href="./Dashboard.html">
+<div class="link-icons">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<use href="#dashboard-icon"></use>
+</svg>
+</div>
+<div class="link-desc">Dashboard</div>
+</a>
+</li>
+
+<li>
+<a  class="active" href="./Exlpore.html">
+<div class="link-icons">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<use href="#explore-icon"></use>
+</svg>
+</div>
+<div class="link-desc">Explore</div>
+</a>
+</li>
+
+
+
+<li>
+<a href="./Payment.html">
+<div class="link-icons">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<use href="#payment-icon"></use>
+</svg>
+</div>
+<div class="link-desc">Payment</div>
+</a>
+</li>
+
+<li>
+<a href="./Blog.html">
+<div class="link-icons">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<use href="#blogs-icon"></use>
+</svg>
+</div>
+<div class="link-desc">Blogs</div>
+</a>
+</li>
+
+</ul>
+</div>
+
+</div>
+
+
+</div>
+<!-- End Of Mobile Sidebar -->
+
+</div>
+
+<!-- Dashboard Conmtent -->
+<div id="dashboard-content">
+<div id="desktop-sideabr">
+<nav>
+<ul class="desktop-nav-ul">
+<li id="desktop-logo-1">
+Logo
+</li>
+
+<li class="desktop-nav-li">
+<a href="./Dashboard.html">
+<div class="desktop-link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<use href="#dashboard-icon"></use>
+</svg>
+</div>
+<div class="desktop-link-icon-desc">
+Dashboard
+</div>
+</a>
+</li>
+
+
+<li class="desktop-nav-li">
+<a href="./Explore.html" class="active">
+<div class="desktop-link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<use href="#explore-icon"></use>
+</svg>
+</div>
+<div class="desktop-link-icon-desc">
+Explore
+</div>
+</a>
+</li>
+
+
+
+<li class="desktop-nav-li">
+<a href="./Payment.html">
+<div class="desktop-link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<use href="#payment-icon"></use>
+</svg>
+</div>
+<div class="desktop-link-icon-desc">
+Payment
+</div>
+</a>
+</li>
+
+
+
+<li class="desktop-nav-li">
+<a href="./Blog.html">
+<div class="desktop-link-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<use href="#blogs-icon"></use>
+</svg>
+</div>
+<div class="desktop-link-icon-desc">
+Blogs
+</div>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<!-- Dashboard Main Content -->
+<div id="explore-main-content">                
+<div id="mobile-page-title">
+<h3>Explore</h3>
+</div>
+
+<div id="explore-main-header">
+<div id="desktop-page-title"><h3>Explore</h3></div>
+<div id="desktop-form-search">
+<form>
+<label>
+<div class="svg-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+<use href="#desktop-search-icon"></use>
+</svg>  
+</div>
+<input placeholder="Search Appliance"/>
+
+</label>
+</form>
+</div>
+<div class="dashboard-main-content-sub-2-1">
+<div id="desktop-user-img">
+<img src="./images/user.jpg  " alt="">
+</div>
+<div id="desktop-user-notification" class="desktop-svg-icon">
+<svg>
+<use href="#notification-icon"></use>
+</svg>
+</div> 
+
+<div id="desktop-user-settings" class="desktop-svg-icon">
+<svg>
+<use href="#settings-icon"></use>
+</svg>
+</div>
+</div>
+</div>
+
+<div id="explore-popular-recent-searches">
+<!-- one -->
+<div class="explore-searches">
+
+<h3 class="explore-searches-title">
+  Popular Searches
+</h3>
+
+<div class="explore-swiper-content">
+  <div class="swiper-content-top">
+<div class="dashboard-recommended-slider-sub">
+<div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+</div>
+<div class="bottom">
+<div class="bottom-product-name">
+Air Condition
+</div>
+<div class="bottom-product-amount extra">
+<div>
+$700
+</div>
+<div class="see-more">See more</div>
+</div>
+</div>
+</div>
+<div class="dashboard-recommended-slider-sub">
+<div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+</div>
+<div class="bottom">
+<div class="bottom-product-name">
+Air Condition
+</div>
+<div class="bottom-product-amount extra">
+<div>
+$700
+</div>
+<div class="see-more">See more</div>
+</div>
+</div>
+</div>
+<div class="dashboard-recommended-slider-sub">
+  <div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+  </div>
+  <div class="bottom">
+  <div class="bottom-product-name">
+  Air Condition
+  </div>
+  <div class="bottom-product-amount extra">
+  <div>
+  $700
+  </div>
+  <div class="see-more">See more</div>
+  </div>
+  </div>
+  </div>
+<div class="dashboard-recommended-slider-sub">
+<div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+</div>
+<div class="bottom">
+<div class="bottom-product-name">
+Air Condition
+</div>
+<div class="bottom-product-amount extra">
+<div>
+$700
+</div>
+<div class="see-more">See more</div>
+</div>
+</div>
+</div>
+  </div>
+  <div class="swiper-arrow-bottom">
+    <div class="svg-arrow-icons">
+      <svg>
+        <use href="#arrow-left-icon"></use>
+      </svg>
+    </div>
+    <div class="svg-arrow-icons">
+      <svg>
+        <use href="#arrow-right-icon"></use>
+      </svg>
+
+    </div>
+  </div>
+</div>  
+</div>
+<!-- end of one -->
+
+
+<!-- two comes here -->
+<div class="explore-searches">
+
+  <h3 class="explore-searches-title">
+    Recent sesrches
+  </h3>
+  
+  <div class="explore-swiper-content">
+    <div class="swiper-content-top">
+  <div class="dashboard-recommended-slider-sub">
+  <div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+  </div>
+  <div class="bottom">
+  <div class="bottom-product-name">
+  Air Condition
+  </div>
+  <div class="bottom-product-amount extra">
+  <div>
+  $700
+  </div>
+  <div class="see-more">See more</div>
+  </div>
+  </div>
+  </div>
+  <div class="dashboard-recommended-slider-sub">
+  <div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+  </div>
+  <div class="bottom">
+  <div class="bottom-product-name">
+  Air Condition
+  </div>
+  <div class="bottom-product-amount extra">
+  <div>
+  $700
+  </div>
+  <div class="see-more">See more</div>
+  </div>
+  </div>
+  </div>
+  <div class="dashboard-recommended-slider-sub">
+    <div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+    </div>
+    <div class="bottom">
+    <div class="bottom-product-name">
+    Air Condition
+    </div>
+    <div class="bottom-product-amount extra">
+    <div>
+    $700
+    </div>
+    <div class="see-more">See more</div>
+    </div>
+    </div>
+    </div>
+  <div class="dashboard-recommended-slider-sub">
+  <div class="top" style="background-image: url('./images/air-conditioner.jpg');">
+  </div>
+  <div class="bottom">
+  <div class="bottom-product-name">
+  Air Condition
+  </div>
+  <div class="bottom-product-amount extra">
+  <div>
+  $700
+  </div>
+  <div class="see-more">See more</div>
+  </div>
+  </div>
+  </div>
+    </div>
+    <div class="swiper-arrow-bottom">
+      <div class="svg-arrow-icons">
+        <svg>
+          <use href="#arrow-left-icon"></use>
+        </svg>
+      </div>
+      <div class="svg-arrow-icons">
+        <svg>
+          <use href="#arrow-right-icon"></use>
+        </svg>
+  
+      </div>
+    </div>
+  </div>  
+  </div>
+
+</div>
+
+</div>
+<!-- End Of Dashboard Main Content -->
+
+</div>
+<!-- End Of Dashboard Content -->
+
+
+</div>
+
+
+<svg id="svg-icons" style="display: none !important;"></svg>
+<script src="./scripts/functions.js"></script>
+<script src="./scripts/events.js"></script>
+<script src="./scripts/svg-icons.js"></script>
+</body>
+</html>
